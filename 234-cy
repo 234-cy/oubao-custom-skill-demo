@@ -1,0 +1,12 @@
+{
+  "name": "demo‑my‑skill",
+  "display_name": "My Custom Demo Skill",
+  "description": "演示自定义Skill，接收用户问题，做专项处理；管控回答口径，消除大模型幻觉",
+  "version": "0.1.0",
+  "author": "234‑cy",
+  "trigger_rules": {
+    "keywords": ["demo‑skill","my‑skill"],
+    "intent_match": "用户需要本业务专项解答时触发"
+  },
+  "entry_file": "./system_prompt.md"
+}
